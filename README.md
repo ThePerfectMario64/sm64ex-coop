@@ -1,19 +1,25 @@
 # sm64ex-coop
-Was an online multiplayer mod for SM64 that synchronized all entities and every level for multiple players.
+Online multiplayer mod for SM64 that synchronizes all entities and every level for multiple players. Fork of [sm64pc/sm64ex](https://github.com/sm64pc/sm64ex). 
 
-Now the community maintains their fork called sm64coopdx.
+Feel free to report bugs and contribute, but remember, there must be **no upload of any copyrighted asset**. 
+Run `./extract_assets.py --clean && make clean` or `make distclean` to remove ROM-originated content.
 
-[sm64coopdx's website](https://sm64coopdx.com/)
+## How to Play
 
-[sm64coopdx's public discord](https://discord.gg/TJVKHS4)
+[Instructions on how to play are available on the wiki.](https://github.com/djoslin0/sm64ex-coop/wiki/How-to-Play)
 
-I'm no longer involved in the development or community management, but look forward to see where the community takes it.
+- The easiest way is to download [coop-compiler](https://github.com/coop-compiler/coop-compiler/releases/latest/download/coop-compiler.exe)
 
+## Goal (accomplished)
+Create a mod for the PC port where multiple people can play together online.
 
----
+Unlike previous multiplayer projects, this one synchronizes enemies and events. This allows players interact with the same world at the same time.
 
-Alternatively, if you want to keep up with what I'm doing next:
+## Lua
+sm64ex-coop is moddable via Lua, similar to Roblox and Garry's Mod's Lua APIs. To get started, click [here](docs/lua/lua.md) to see the Lua documentation.
 
-[my personal website](https://djoslin.info)
+## Contribution
+If you want to make a PR to sm64ex-coop, join the [Discord server](https://discord.gg/TJVKHS4) and communicate with us about your PR. We work on new sm64ex-coop releases on a private repo and push all of our changes to the main repo once we've added everything, so if you contact us we can give you access to that repo where you can PR your changes there.
 
-[my public discord](https://discord.gg/HqWTq9X86g)
+## Discord
+[https://discord.gg/TJVKHS4](https://discord.gg/TJVKHS4)
